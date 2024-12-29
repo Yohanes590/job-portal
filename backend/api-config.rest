@@ -1,0 +1,22 @@
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "username":"rebekiLove",
+    "email":"rebeki@gmail.com",
+    "password":"rebeki"
+}
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username":"rebeki"
+}
+
+
+###
+POST  http://localhost:3000/testPost
+Content-Type: application/json
